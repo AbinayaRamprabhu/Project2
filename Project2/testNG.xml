@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >  
+<suite name="Suite1" verbose="1" parallel="classes" thread-count="3">
+  <test name="Functional Testing">
+	  <parameter name="browser" value="chrome"></parameter>
+  <!--<groups>
+    <run>
+      <include name="Regression"/>
+       <include name="Sanity"/>
+    </run>
+  </groups>-->
+
+  <classes>
+	  <class name="Excelr.Project2.TestNG_Parameters"></class>
+	 <!-- <class name="Excelr.Selenium.TestNG_Parallel"></class>
+		<class name="Excelr.Selenium.testNG_Groups"/>
+      <class name="Excelr.Selenium.WindowHandlingEx"/>
+      <class name="Excelr.Selenium.DownloadfileEx"/>-->
+    </classes>
+  </test> 
+</suite>
+ 
